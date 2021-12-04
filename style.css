@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    font-family: fantasy;
+    font-weight: 300;
+}
+#apps{
+    width:100%;
+    height: 800px;
+    background-color: crimson;
+}
+#games{
+    width:100%;
+    height: 800px;
+    background:linear-gradient(#1100fc 0%,#fc00e7 100%);
+}
+#chatbot{
+    width:100%;
+    height:800px;
+    background:linear-gradient(#fc0000 0%,#fc7600 100%)
+}
+img{
+    transition: transform .2s;
+}
+img:hover{
+    transform: scale(0.9);
+}
+.line{
+    height:6px;
+    background-color: aquamarine;
+    width:70px;
+    margin:8px auto;
+}
